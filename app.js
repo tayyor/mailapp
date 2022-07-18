@@ -25,7 +25,7 @@ const transporter = nodemailer.createTransport({
             to:'abdulhaphyz@gmail.com',
             subject:'TEST',
             html:'<h1>mail sent using nodejs via nodemailer!!!</h1> ',
-            date: new Date()
+        
         });
         console.log(`mail sent`);
     }
